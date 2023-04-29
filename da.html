@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head><title>VIT Vellore-VTOP</title>
+<script>
+function see()
+{
+var valid=true;
+if(document.fom.term.checked==false)
+{
+alert("CHECK THE BOX TO CONFIRM YOUR HOMEWORK");
+valid=false;
+}
+else
+{
+alert("THANK YOU YOUR DA HAS BEEN SUBMITTED");
+return valid;
+}
+}
+
+function see1()
+{
+var valid=true;
+if(document.fom.term1.checked==false)
+{
+alert("CHECK THE BOX TO CONFIRM YOUR HOMEWORK");
+valid=false;
+}
+else
+{
+alert("THANK YOU YOUR DA HAS BEEN SUBMITTED");
+return valid;
+}
+}
+
+function see2()
+{
+var valid=true;
+if(document.fom.term2.checked==false)
+{
+alert("CHECK THE BOX TO CONFIRM YOUR HOMEWORK");
+valid=false;
+}
+else
+{
+alert("THANK YOU YOUR DA HAS BEEN SUBMITTED");
+return valid;
+}
+}
+
+function see3()
+{
+var valid=true;
+if(document.fom.term3.checked==false)
+{
+alert("CHECK THE BOX TO CONFIRM YOUR HOMEWORK");
+valid=false;
+}
+else
+{
+alert("THANK YOU YOUR DA HAS BEEN SUBMITTED");
+return valid;
+}
+}
+
+</script>
+<style>
+#tb{
+margin-top:2%;
+}
+table,th,td { border: 2px solid black; border-collapse: collapse; }
+
+a{
+text-decoration:none;
+}
+a:active
+{color:white;
+}
+a:link
+{color: white;
+}
+a:visited
+{color:white;
+}
+
+tr:hover
+{
+background-color: #bb8644;
+}
+
+#box5{
+border:2px solid black;
+color:white;
+background-color:#47b88c;
+height:30px;
+width:15%;
+overflow:hidden;
+float:left;
+margin-left:40%;
+padding:5px;
+margin-top:2%;
+
+}
+
+</style></head>
+
+<body>
+<form name="fom">
+<p><img src="11.jpg" width="40" height="40"><b> VIT</b>(Vellore Campus)</p>
+<hr size="20" color="#64989b">
+<marquee bgcolor="#64989b"> Welcome to VIT university </marquee>
+
+<div id="tb">
+<center>
+<h3>Digital Assignment Upload</h3>
+<table>
+<tr bgcolor=#81af50>
+<th >Sl No</th>
+<th>Class Nbr</th>
+<th >Course Code</th>
+<th >Course Title</th>
+<th>Course Type</th>
+<th >Faculty Name</th>
+<th >DashBoard</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>VL2022230101851</td>
+<td>ITA1003</td>
+<td>Principles of Accounting</td>
+<td>ETH</td>
+<td>SARAVANA BHAVAN N - SSL</td>
+<td><input type="file" id="myfile" name="myfile"><input type="checkbox" name="term1"><center><br><input type="submit" onclick="see1()"></center></td>
+</tr>
+
+
+<tr>
+<td>2</td>
+<td>VL2022230100900</td>
+<td>ITA1007</td>
+<td>Web Development</td>
+<td>ETH</td>
+<td>MALATHY E - SITE</td>
+<td><input type="file" id="myfile" name="myfile"><input type="checkbox" name="term"><center><br><input type="submit" onclick="see()"></center></td>
+</tr>
+
+
+<tr>
+<td>3</td>
+<td>VL2022230100918</td>
+<td>ITA1008</td>
+<td>M-Commerce</td>
+<td>TH</td>
+<td>BENJULA ANBU MALAR M B - SITE</td>
+<td><input type="file" id="myfile" name="myfile"><input type="checkbox" name="term2"><center><br><input type="submit"  onclick="see2()"></center></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>VL2022230100914</td>
+<td>ITA3001</td>
+<td>Object Oriented Programming</td>
+<td>ETH</td>
+<td>ALAGIRI I - SITE</td>
+<td><input type="file" id="myfile" name="myfile"><input type="checkbox" name="term3"><center><br><input type="submit"  onclick="see3()"></center></td>
+</tr>
+
+</table>
+</center>
+</div>
+<div id="box5">
+<center><a href="main.html">Return Menu</a></center>
+</div>
+</form>
+</body>
+</html>
